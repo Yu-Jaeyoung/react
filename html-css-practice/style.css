@@ -1,0 +1,101 @@
+.wrapper {
+    width: 500px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(250, 244, 230);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+button:hover {
+    filter: brightness(125%);
+    cursor: pointer;
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
+#red_btn {
+    background-color: rgb(237, 122, 118);
+}
+
+#yellow_btn {
+    background-color: rgb(250, 220, 147);
+}
+
+#green_btn {
+    background-color: rgb(158, 192, 164);
+}
+
+.add {
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(241, 234, 216);
+    margin-top: 20px;
+}
+
+
+header {
+    position: relative;
+    border-bottom: 3px solid black;
+    height: 100px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px dashed grey;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.text {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo_date {
+    color: grey;
+    margin-top: 3px;
+}
+
+i {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.fa-ban:hover {
+    cursor: pointer;
+    transform: scale(125%) rotate(-10deg);
+    transition: transform 0.1s linear;
+}
